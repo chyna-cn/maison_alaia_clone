@@ -177,10 +177,13 @@ input[type=email]{
     margin-left: 1%;
 }
 #info{
+    width: 50%;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
     margin-top: 4%;
+    margin-left: 25%;
+
 }
 input[type=submit]{
     width:20%;
@@ -190,6 +193,9 @@ input[type=submit]{
     border: none;
     outline: none;
     color:white;
+}
+#hidden{
+    display:none;
 }
 
 .title {
