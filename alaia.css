@@ -40,11 +40,9 @@ h1{
     background-repeat: no-repeat;
     background-size: cover;
 }
-/*blockquote{
-    float: right;
-    margin-top: 15%;
-    margin-right: 15%;
-    text-align: left;
+/*#content{display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }*/
 #section{
     display: flex;
@@ -59,16 +57,20 @@ h1{
     width:50%;
     height:80vh;
 }
+#one>h2{
+    margin-left: 27%;
+    margin-top: 30%;
+}
+#one>p{
+    margin-left: 27%;
+    margin-top: 4%;
+}
 #two{
     width:50%;
     height:80vh;
     background-image: url("lux2.png");
     background-repeat: no-repeat;
     background-size: cover;
-}
-h2,#a1{
-    margin-left:20%;
-    /*margin-top:30%;*/
 }
 a{
     color:black;
@@ -119,7 +121,7 @@ h4{
 }
 #apart_one{
     width:40%;
-    height:60vh;
+    height:50vh;
     background-image: url("runway.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -127,7 +129,7 @@ h4{
 }
 #apart_two{
     width:40%;
-    height:60vh;
+    height:50vh;
     background-image: url("boutique.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -140,18 +142,56 @@ h4{
 }
 #title1{
     width:40%;
+    margin-bottom: 7%;
+}
+#title1>h2{
+    margin-left: 10%;
+}
+#title1>p{
+    margin-left: 10%;
 }
 #title2{
     width:40%;
+    margin-bottom: 7%;
 }
-footer{
+#title2>h2{
+    margin-left: -11%;
+}
+#title2>p{
+    margin-left: -11%;
+}
+footer {
     width: 100%;
-    height:60vh;
-    background-color:#eee;
+    height: 65vh;
+    background-color: #eee;
+}
+form{
+    text-align: center;
+    padding-top: 4%;
+}
+input[type=email]{
+    width: 20%;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: inherit;
+    margin-left: 1%;
+}
+#info{
     display: flex;
     justify-content: space-around;
     flex-direction: row;
+    margin-top: 4%;
 }
+input[type=submit]{
+    width:20%;
+    padding:10px;
+    margin-top: 30px;
+    background-color: black;
+    border: none;
+    outline: none;
+    color:white;
+}
+
 .title {
     text-align: left;
     margin: auto;
