@@ -172,10 +172,15 @@ form{
 input[type=email]{
     width: 20%;
     border: none;
+    outline: none;
     border-bottom: 1px solid black;
     background-color: inherit;
     margin-left: 1%;
 }
+input:focus{
+    outline: none;
+}
+
 #info{
     width: 50%;
     display: flex;
