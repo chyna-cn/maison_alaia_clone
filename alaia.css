@@ -321,3 +321,15 @@ input[type=email]:focus, textarea:focus
     font-weight: bold;
     margin-bottom: 1.25rem;
 }
+h2 {
+    font-family: Lato Bold, Sans-serif, Helvetica, Arial;
+    font-weight: 700;
+    font-size: .75rem;
+    text-transform: uppercase;
+    display: block;
+    line-height: 1;
+    margin: 1.25rem 0;
+}
+*{
+    font-family: Lato Bold, Sans-serif, Helvetica, Arial;
+}
